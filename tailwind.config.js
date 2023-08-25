@@ -21,7 +21,7 @@ export default {
           montserrat: ['Montserrat'],
           istokweb: ["Istok Web"],
           inter: ["Inter"]
-        }
+        },
       },
   },
   plugins: [],

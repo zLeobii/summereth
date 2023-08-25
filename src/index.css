@@ -11,4 +11,11 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.cool {
+  background-image: url("../bg.png");
+  width: 100dvw;
+  background-size: cover;
 }
