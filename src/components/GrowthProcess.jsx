@@ -9,7 +9,7 @@ import Timeline2 from "../assets/Timeline2.svg";
 
 const GrowthProcess = () => {
     return (
-        <div className="flex w-[100dvw] h-[3000px] pt-[100px] flex-col items-center gap-[100px] cool">
+        <div className="flex w-[100dvw] h-[2900px] sm:h-[3250px] md:h-[3100px] xl:h-[1800px] pt-[100px] flex-col items-center gap-[100px] cool">
             <div className="flex flex-col items-center w-[330px] sm:w-[564.5px] lg:w-[1000px] xl:w-[1179px] gap-[100px]">
               <div className="flex w-[330px] sm:w-[564.5px] lg:w-[1000px] flex-col justify-center items-center gap-[20px]">
                 <h2 className="text-black2 font-istokweb text-center text-[35px] sm:text-[45px] font-[700] overflow-hidden">Increase our Leads, Explode your Sales</h2>
