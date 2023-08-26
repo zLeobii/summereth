@@ -12,7 +12,7 @@ import Icon7 from "../assets/icon7.svg";
 
 const SocialProof = () => {
     return (
-        <div className="flex w-[100dvw] h-[2300px] sm:h-[1900px] xl:h-[1747px] flex-col justify-center items-center gap-[50px]">
+        <div id="casestudy" className="flex w-[100dvw] h-[2300px] sm:h-[1900px] xl:h-[1747px] flex-col justify-center items-center gap-[50px] xl:gap-[120px]">
             <div className="flex w-[330px] sm:w-[570px] xl:w-[1180px] h-[1460px] sm:h-auto flex-col items-start rounded-[15px] border-solid border-black1 border-[2px] overflow-hidden">
               <div className="flex flex-col xl:flex-row pt-[40px] pb-[40px] pl-[20px] pr-[20px] gap-[30px] xl:gap-[60px] self-stretch justify-center items-center h-[388px] xl:h-[176px] rounded-[15px] overflow-hidden bg-black8">
                 <div className="flex w-[286px] xl:w-auto items-start flex-col gap-[20px]">

@@ -1,4 +1,5 @@
 import Open from "../assets/open1.svg";
+import OpenActive from "../assets/openactive.svg";
 import Arrow1 from "../assets/arrow1.svg";
 import Arrow2 from "../assets/arrow2.svg";
 import Lunar from "../assets/lunar.png";
@@ -14,10 +15,14 @@ const GrowthProcess = () => {
               <div className="flex w-[330px] sm:w-[564.5px] lg:w-[1000px] flex-col justify-center items-center gap-[20px]">
                 <h2 className="text-black2 font-istokweb text-center text-[35px] sm:text-[45px] font-[700] overflow-hidden">Increase our Leads, Explode your Sales</h2>
                 <p className="text-black3 font-inter text-center text-[17px] sm:text-[20px] font-[400] overflow-hidden">Our ideal growth process explained easily.</p>
-                <div className="flex justify-center items-center w-[206px] h-[58px] sm:w-[271px] sm:h-[61px] pt-[15px] pb-[15px] gap-[7px] rounded-[7px] border-solid bg-main1 border-black1 border-[1.5px] overflow-hidden">
-                  <h4 className="text-black9 font-montserrat text-center text-[22px] sm:text-[18px] font-[600]">Book a Call <span className="max-sm:hidden">Today</span></h4> 
-                  <img src={Open} alt="open" className="w-[30px] h-[30px] sm:w-[32px] sm:h-[32px] object-contain" />
-                </div>
+                <a href="https://calendly.com/robertocarloni/summereth_leadgen" rel="noreferrer" target="_blank" className="cursor-pointer">
+                  <div className="group sm:hover:bg-main2 transition duration-250 ease-out flex justify-center items-center w-[206px] h-[58px] sm:w-[271px] sm:h-[61px] pt-[15px] pb-[15px] gap-[7px] rounded-[7px] border-solid bg-main1 border-black1 border-[1.5px] overflow-hidden">
+                    <h4 className="text-black9 sm:group-hover:text-black8 transition duration-250 ease-out font-montserrat text-center text-[22px] sm:text-[18px] font-[600]">Book a Call <span className="max-sm:hidden sm:group-hover:text-black8 transition duration-250 ease-out">Today</span></h4> 
+                    <img src={Open} alt="open" className="w-[30px] h-[30px] sm:w-[32px] sm:h-[32px] object-contain transition duration-250 ease-out sm:group-hover:hidden" />
+                    <img src={OpenActive} alt="open" className="object-contain w-[32px] h-[32px] transition duration-250 ease-out hidden sm:group-hover:flex"/>
+                  </div>
+                </a>
+
               </div>
 
               <div className="flex w-[330px] sm:w-[564.5px] lg:w-[1000px] flex-col items-center gap-[50px] xl:gap-[100px]">
