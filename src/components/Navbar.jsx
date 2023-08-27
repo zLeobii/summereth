@@ -8,10 +8,10 @@ import "../index.css";
 
 const Navbar = () => {
     return (
-        <div className="bg-white flex sm:flex-row flex-col justify-center items-center w-[100dvw] h-[136px] sm:h-[119px] 2xl:gap-[400px] xl:gap-[350px] lg:gap-[150px] sm:gap-[50px] gap-[15px] pt-[10px] pb-[10px]">
+        <div className="bg-white flex sm:flex-row flex-col justify-center items-center w-[100dvw] h-[136px] sm:h-[84px] 2xl:gap-[400px] xl:gap-[350px] lg:gap-[150px] sm:gap-[50px] gap-[15px] pt-[10px] pb-[10px]">
             <a href="https://summereth.com" rel="noreferrer" className="cursor-pointer overflow-hidden max-sm:h-[5.1rem]">
                 <div className="flex justify-center items-center gap-[0.6rem] height-[5.1rem] overflow-hidden">
-                    <img src={Logo1} alt="logo" className="lg:w-[69px] lg:h-[69px] md:w-[55px] md:h-[55px] sm:w-[50px] h-[50px] object-contain"/>
+                    <img src={Logo1} alt="logo" className=" h-[50px] object-contain"/>
                     <h3 className="font-montserrat text-center font-semibold text-black2 text-2xl">summereth</h3>
                 </div>
             </a>

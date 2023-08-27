@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <div className="flex flex-col justify-end items-center gap-[70px] pt-[40px] pb-[40px] w-[100dvw] h-[371px] xl:h-[454px] bg-black3">
             <div className="flex flex-col justify-center items-center gap-[60px]">
-              <a href="https://summereth.com" rel="noreferrer" className="cursor-pointer">
+              <a href="https://summereth.com" rel="noreferrer" className="cursor-pointer overflow-hidden">
                 <img src={Logo} alt="logo" className="cursor-pointer object-contain w-[100px] h-[81px] xl:w-[115px] xl:h-[93px]" />
               </a>
               <div className="flex items-start gap-[30px] overflow-hidden">
