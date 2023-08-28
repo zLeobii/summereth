@@ -50,12 +50,12 @@ const SocialProof = () => {
               <div className="flex w-[330px] sm:w-[600px] xl:w-[1179px] h-[458px] flex-col items-center gap-[20px] sm:gap-[40px]">
                 <div className="flex justify-center items-center self-stretch gap-[20px] h-[140px] sm:hidden">
                   <img src={Icon1} alt="icon" className="object-contain w-[85px] h-[85px]" />
-                  <img src={Icon2} alt="icon" className="object-contain w-[85px] h-[85px]" />
-                  <img src={Icon3} alt="icon" className="object-contain w-[85px] h-[85px]" />
+                  <img src={Icon2} alt="icon" className="object-contain w-[85px] h-[85px] rounded-full border-solid border-[1px] border-black1" />
+                  <img src={Icon3} alt="icon" className="object-contain w-[85px] h-[85px] rounded-full border-solid border-[1px] border-black1" />
                 </div>
                 <div className="flex justify-center items-center self-stretch gap-[20px] h-[140px] sm:hidden">
                   <img src={Icon4} alt="icon" className="object-contain w-[85px] h-[85px]" />
-                  <img src={Icon5} alt="icon" className="object-contain w-[85px] h-[85px]" />
+                  <img src={Icon5} alt="icon" className="object-contain w-[85px] h-[85px] rounded-full border-solid border-[1px] border-black1" />
                 </div>
                 <div className="flex justify-center items-center self-stretch gap-[20px] h-[140px] sm:hidden">
                   <img src={Icon6} alt="icon" className="object-contain w-[85px] h-[85px]" />
@@ -64,12 +64,12 @@ const SocialProof = () => {
 
                 <div className="flex justify-center items-center self-stretch gap-[20px] sm:gap-[40px] xl:gap-[200px] h-[140px] xl:h-[153px] max-sm:hidden">
                   <img src={Icon1} alt="icon" className="object-contain w-[85px] h-[85px] xl:w-[150px] xl:h-[150px]" />
-                  <img src={Icon2} alt="icon" className="object-contain w-[85px] h-[85px] xl:w-[150px] xl:h-[150px]" />
-                  <img src={Icon3} alt="icon" className="object-contain w-[85px] h-[85px] xl:w-[150px] xl:h-[150px]" />
+                  <img src={Icon2} alt="icon" className="object-contain w-[85px] h-[85px] xl:w-[150px] xl:h-[150px] rounded-full border-solid border-[1px] border-black1"/>
+                  <img src={Icon3} alt="icon" className="object-contain w-[85px] h-[85px] xl:w-[150px] xl:h-[150px] rounded-full border-solid border-[1px] border-black1" />
                   <img src={Icon4} alt="icon" className="object-contain w-[85px] h-[85px] xl:w-[150px] xl:h-[150px]" />
                 </div>
                 <div className="flex justify-center items-center self-stretch gap-[20px] sm:gap-[40px] xl:gap-[200px] h-[140px] xl:h-[153px] max-sm:hidden">
-                  <img src={Icon5} alt="icon" className="object-contain w-[85px] h-[85px] xl:w-[150px] xl:h-[150px]" />
+                  <img src={Icon5} alt="icon" className="object-contain w-[85px] h-[85px] xl:w-[150px] xl:h-[150px] rounded-full border-solid border-[1px] border-black1" />
                   <img src={Icon6} alt="icon" className="object-contain w-[85px] h-[85px] xl:w-[150px] xl:h-[150px]" />
                   <img src={Icon7} alt="icon" className="object-contain w-[85px] h-[85px] xl:w-[150px] xl:h-[150px]" />
                 </div>

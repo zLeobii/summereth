@@ -3,7 +3,7 @@ import linkedin from '../assets/linkedin.png';
 
 const System = () => {
     return (
-        <div className='flex w-[100dvw] h-[1150px] xl:h-[800px] pt-[100px] pr-[10px] pl-[10px] flex-col items-center gap-[50px]' id='system'>
+        <div className='flex w-[100dvw] h-[1300px] xl:h-[800px] pt-[100px] pr-[10px] pl-[10px] flex-col items-center gap-[50px]' id='system'>
             <div className='flex w-[330px] sm:w-[564.5px] xl:w-[1179px] flex-col justify-center items-center gap-[20px]'>
               <h1 className='text-black2 font-istokweb text-[30px] sm:text-[45px] font-[700] text-center overflow-hidden'>Our Killer Strategies</h1>
               <p className='text-black3 font-inter text-[17px] sm:text-[20px] font-[400] text-center overflow-hidden'>Our personalized outreach, to get, not only fast <br className='hidden lg:flex'/>replies, but quality leads.</p>
@@ -39,6 +39,9 @@ const System = () => {
                 </div>
               </div>
 
+            </div>
+            <div className='w-[330px] sm:w-[564.5px] xl:w-[1179px] overflow-hidden'>
+              <h1 className='text-black2 font-istokweb text-[20px] sm:text-[30px] font-[700] text-center overflow-hidden'>You only pay per prospect that shows up to a meeting with you</h1>
             </div>
         </div>
     );

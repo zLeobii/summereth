@@ -19,7 +19,10 @@ const Hero = () => {
               </a>
             </div>
 
-            <iframe src="https://player.vimeo.com/video/76729370?h=6c4126e64c" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen className="w-[331px] h-[177.114px] min-[450px]:w-[420px] min-[450px]:h-[325px] sm:w-[550px] sm:h-[325px] lg:w-[800px] lg:h-[425px] flex justify-center items-center" alt="video"></iframe>
+            <iframe src="https://player.vimeo.com/video/76729370?h=6c4126e64c" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen className=" hidden w-[331px] h-[177.114px] min-[450px]:w-[420px] min-[450px]:h-[325px] sm:w-[550px] sm:h-[325px] lg:w-[800px] lg:h-[425px] flex justify-center items-center" alt="video"></iframe>
+            <div className="w-[331px] h-[177.114px] min-[450px]:w-[420px] min-[450px]:h-[325px] sm:w-[550px] sm:h-[325px] lg:w-[800px] lg:h-[425px] flex justify-center items-center bg-black1">
+              <h1 className='text-white font-istokweb text-[20px] sm:text-[30px] font-[700] text-center overflow-hidden'>Video Coming Soon</h1>
+            </div>
             
             <a href="https://calendly.com/robertocarloni/summereth_leadgen" rel="noreferrer" target="_blank" className="cursor-pointer">
               <div className="lg:hidden flex w-[206px] h-[58px] pt-[15px] pb-[15px] justify-center items-center gap-[7px] rounded-[7px] border-solid bg-main1 border-black1 border-[1.5px] overflow-hidden">
