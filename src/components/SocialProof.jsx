@@ -39,7 +39,12 @@ const SocialProof = () => {
                 <div className="flex flex-col items-center self-stretch gap-[10px] pt-[50px] pb-[50px] pl-[40px] pr-[40px] border-solid border-black1 border-[1px] overflow-hidden">
                   <div className="flex flex-col items-center self-stretch gap-[15px] xl:w-[510px]">
                     <h2 className="text-black1 font-montserrat text-[27px] xl:text-[35px] font-[600] overflow-hidden">$30K IN 7 WEEKS</h2>
-                    <p className="text-black3 font-inter text-[18px] xl:text-[24.5px] font-[400] overflow-hidden">A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars. A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars. A car rental website is an online platform lmao lmao lmao lmao lmao lmao lmao. </p>
+                    <p className="text-black3 font-inter text-[17.3px] xl:text-[24.5px] font-[400] overflow-hidden">When Alex Karcz (the founder of Metaneur) came to us: <br />
+-He was 100% relying on referrals and inbound <br />
+-He was growing a small brand and he was scared of ruining it with cold dms <br />
+-He already worked with a scam “lead gen agency” that stole him money <br />
+We studied his offer, built a complete outreach strategy, and made him $10k in the first 2 weeks of working together. <br />
+In total, during the span of 7 weeks working together, we generated $30k in closed deals for Metaneur! <br /></p>
                   </div>
                 </div>
               </div>
