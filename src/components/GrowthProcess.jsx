@@ -13,7 +13,7 @@ const GrowthProcess = () => {
         <div className="flex w-[100dvw] h-[2900px] sm:h-[3250px] md:h-[3100px] xl:h-[1800px] pt-[100px] flex-col items-center gap-[100px] cool">
             <div className="flex flex-col items-center w-[330px] sm:w-[564.5px] lg:w-[1000px] xl:w-[1179px] gap-[100px]">
               <div className="flex w-[330px] sm:w-[564.5px] lg:w-[1000px] flex-col justify-center items-center gap-[20px]">
-                <h2 className="text-black2 font-istokweb text-center text-[35px] sm:text-[45px] font-[700] overflow-hidden">Increase our Leads, Explode your Sales</h2>
+                <h2 className="text-black2 font-istokweb text-center text-[35px] sm:text-[45px] font-[700] overflow-hidden">Increase your Leads, Explode your Sales</h2>
                 <p className="text-black3 font-inter text-center text-[17px] sm:text-[20px] font-[400] overflow-hidden">Our ideal growth process explained easily.</p>
                 <a href="https://calendly.com/robertocarloni/summereth_leadgen" rel="noreferrer" target="_blank" className="cursor-pointer">
                   <div className="group sm:hover:bg-main2 transition duration-250 ease-out flex justify-center items-center w-[206px] h-[58px] sm:w-[271px] sm:h-[61px] pt-[15px] pb-[15px] gap-[7px] rounded-[7px] border-solid bg-main1 border-black1 border-[1.5px] overflow-hidden">
